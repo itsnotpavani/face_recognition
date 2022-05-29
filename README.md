@@ -2,11 +2,16 @@
 project uses face-api.js to implement Face ID login and child mode implementation
 
 run these following commands in the vs code console:
-npm init-y
+npm init -y
 npm i webpack webpack-cli -D
-npm run build
 
-now go live on live server
+// Now open package.json file and in the scripts write "build":"webpack"
+npm run build
+//now install firebase
+
+npm install firebase
+
+//now go live on live server
 
 
 Description:
